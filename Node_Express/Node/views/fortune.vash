@@ -1,0 +1,9 @@
+﻿@html.extend('layout',function(model){
+	@html.block('body',function(model){
+	
+	<h1>@model.fortune</h1>
+	<h1>Query String: @model.query</h1>
+	<h1>Cookies: @model.cookie</h1>
+	<h1>Sessiong: @model.session</h1>
+	})
+})
